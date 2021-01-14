@@ -76,8 +76,22 @@ body h2, h3 {
     background-color: #333333;
     color: #7df9ff;
     }
-
-  @font-face {
+.box {
+  background-color:black;
+  width: 600px;
+  border: 2px solid #ffffff;
+  padding: 50px;
+  margin: 20px;
+}
+.boxa{
+  margin: 0 auto;
+  display: block;
+  background-color:black;
+  width: 600px;
+  border: 2px solid #ffffff;
+  padding: 50px;
+} 
+ @font-face {
     font-family: AVP;
     src: url(font/AVP.ttf)
   }
