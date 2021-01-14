@@ -127,16 +127,15 @@ margin-top: 20px;
   font-family: AVP;
   src: url(font/AVP.ttf)
 }
-
-.AVP {
-  font-family: AVP;
-}
-
 @font-face {
   font-family: Covert-ops;
   src: url(font/covertops.ttf)
 }
 
-.covert-ops {
+.AVP {
+  font-family: AVP;
+}
+
+.Covert-ops {
   font-family: Covert-ops;
 }
