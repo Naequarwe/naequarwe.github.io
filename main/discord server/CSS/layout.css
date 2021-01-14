@@ -1,5 +1,5 @@
 body {
-  background-image: url('CSS/images/Case Studies backup.jpg');
+  background-image: url('images/Case Studies backup.jpg');
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: cover;
@@ -8,7 +8,7 @@ body {
   
   /* Header */
   .header {
-    background-image: url("CSS/images/header.jpg");
+    background-image: url("images/header.jpg");
     text-align: center;
     padding: 20px;
   }
@@ -47,7 +47,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background-image: url('CSS/images/header.jpg');
+    background-image: url('images/header.jpg');
     margin-top: 20px;
   }
   .card {
