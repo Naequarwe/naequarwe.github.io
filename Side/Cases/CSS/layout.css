@@ -5,6 +5,9 @@ body {
   background-size: cover;
   padding: 10px;
 }
+body h2, h3 {
+  text-align: center;
+}
   /* Header */
   .header {
     background-image: url("images/header.jpg");
