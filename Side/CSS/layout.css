@@ -1,5 +1,5 @@
 body {
-  background-image: url('C:/Users/aharo/Dropbox/My PC (NewStart)/Documents/Glitchout.com/CSS/website/images/Case Studies.jpg');
+  background-image: url('images/Case Studies.jpg');
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: cover;
@@ -7,7 +7,7 @@ body {
 }
   /* Header */
   .header {
-    background-image: url("C:/Users/aharo/Dropbox/My PC (NewStart)/Documents/Glitchout.com/CSS/website/images/header.jpg");
+    background-image: url("images/header.jpg");
     text-align: center;
     padding: 20px;
   }
