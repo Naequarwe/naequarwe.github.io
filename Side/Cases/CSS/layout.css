@@ -85,3 +85,12 @@ body h2, h3 {
   .AVP {
     font-family: AVP;
   }
+
+  @font-face {
+    font-family: Covert-ops;
+    src: url(font/covertops.ttf)
+  }
+
+  .covert-ops {
+    font-family: Covert-ops;
+  }
