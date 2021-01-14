@@ -1,0 +1,58 @@
+.button {
+	display: block;
+	border: 1px solid #ffffff;
+	transition-duration: 0.4s;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	font-size: 150%
+	}
+	.button1{
+		background-color: #000000;
+		color: #8a0303;
+		cursor: crosshair;
+	}
+	.button1:hover {
+		background-color: #fffff0;
+		color: black;
+	}
+	.Youtube {
+		background-color: red;
+		color: #ffffff;
+		cursor: crosshair;
+	}
+	.Youtube:hover {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	.Discord {
+		background-color: #000080;
+		color: #fffff0;;
+		cursor: crosshair;
+	}
+	.Discord:hover {
+		background-color: #fffff0;
+		color: black;
+	}
+	.Instagram {
+		background-color: #c71585;
+		color: #ffffff;
+		cursor: crosshair;
+	}
+	.Instagram:hover {
+		background-color: #ffffff;
+		color: #000000;
+	}
+	.Twitch {
+		background-color: #967bb6;
+		color: #ffffff;
+		cursor: crosshair;
+	}
+	.Twitch:hover {
+		background-color: #ffffff;
+		color: #967bb6;
+	}
+	.disable {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}

@@ -1,0 +1,84 @@
+body {
+  background-image: url('C:/Users/aharo/Dropbox/My PC (NewStart)/Documents/Glitchout.com/CSS/website/images/Case Studies.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px;
+}
+  /* Header */
+  .header {
+    background-image: url("C:/Users/aharo/Dropbox/My PC (NewStart)/Documents/Glitchout.com/CSS/website/images/header.jpg");
+    text-align: center;
+    padding: 20px;
+  }
+    .header h1 {
+        font-size: 50px;
+        color: #ff0000;
+        font-family: Algerian;
+    }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px dotted white;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+  }
+  .disable {
+    color: black;
+  }
+  .item{
+    width:200px;
+    text-align:center;
+    display: block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float: right;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-image: url('C:/Users/aharo/Dropbox/My PC (NewStart)/Documents/Glitchout.com/CSS/website/images/header.jpg');
+    margin-top: 20px;
+    }
+  .card {
+    padding: 20px;
+    width: 1000px;
+    text-align: center;
+    background-color: none;
+  }
+  .letter {
+    padding: 20px;
+    margin: 0 auto;
+    width: 945px;
+    display: block;
+    text-align: center;
+    background-color: #333333;
+    color: #7df9ff;
+    }
+
+  @font-face {
+    font-family: AVP;
+    src: url(font/AVP.ttf)
+  }
+  
+  .AVP {
+    font-family: AVP;
+  }
