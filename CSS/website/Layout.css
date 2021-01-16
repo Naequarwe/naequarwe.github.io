@@ -122,20 +122,3 @@ margin-top: 20px;
     width: 100%;
   }
 }
-
-@font-face {
-  font-family: AVP;
-  src: url(font/AVP.ttf)
-}
-@font-face {
-  font-family: Covert-ops;
-  src: url(font/covertops.ttf)
-}
-
-.AVP {
-  font-family: AVP;
-}
-
-.Covert-ops {
-  font-family: Covert-ops;
-}

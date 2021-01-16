@@ -60,21 +60,4 @@ body {
     color: #7df9ff;
     }
 
-    @font-face {
-      font-family: AVP;
-      src: url(font/AVP.ttf)
-    }
-    
-    .AVP {
-      font-family: AVP;
-    }
-
-    @font-face {
-      font-family: Covert-ops;
-      src: url(font/covertops.ttf)
-    }
-  
-    .covert-ops {
-      font-family: Covert-ops;
-    }
   
