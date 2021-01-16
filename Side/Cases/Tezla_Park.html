@@ -2,14 +2,18 @@
 <html>
 	<head>
 		<title>Case Study 2: Tezla Park</title>
+		<link rel="stylesheet" href="CSS/Loader.css">
 	</head>
-<body style="background-color:#000000;">
+<body onload="myFunction()">
+
+	<div id="loader"></div>
 
 	<link rel="stylesheet" type="text/css"	href="CSS/Glitch.css">
 	<link rel="stylesheet" href="CSS/button.css">
 	<link rel="stylesheet" href="CSS/layout.css" type="text/css">
 	<link rel="stylesheet" href="CSS/Font.css" type="text/css">
 	
+	<div id="myDiv">
 	<div class="header">
 		<div class="glitch" data-text="Study_Cases" style="font-family: AVP;">
 			<h1>Case_studies</h1>
@@ -28,14 +32,15 @@
 
 		<div class="letter">
 			<h3 style="color: #ffffff; font-family: AVP;">No image found</h3>
-				<ol Style="font-family: Covert Ops;">
-					<li><i>NAME: Tezla Park</i></li>
-					<li><i>SEX: Male</i></li>
-					<li><i>AGE: Unknown</i></li>
-					<li><i>HEIGHT: unknown</i></li>
-					<li><i>HAIR COLOUR: Pitch Black</i></li>
-					<li><i>EYE COLOUR: unknown</i></li>
-				</ol>
+				<dl>
+					<dt><i>NAME: Tezla Park</i></dt>
+					<dt><i>SEX: Male</i></dt>
+					<dt><i>AGE: Unknown</i></dt>
+					<dt><i>HEIGHT: unknown</i></dt>
+					<dt><i>HAIR COLOUR: Pitch Black</i></dt>
+					<dt><i>EYE COLOUR: unknown</i></dt>
+				</dl>
+			</p>
 		</div>
 
 		<h3 style="color:#8a0303; font-family:AVP; font-size:200%;">About</h3>
@@ -53,7 +58,7 @@
 		<div class="letter">
 			<p>
 				The following items are what we have found are his abilities (the bolded powers are his most powerful):
-			<ol>
+			<dl>
 				<li><b>Necromancy</b></li>
 				<li>blood magic</li>
 				<li>Shadow Magic</li>
@@ -64,7 +69,7 @@
 				<li><b>Time control</b></li>
 				<li><b>dimension control</b></li>
 				<li><b>Shapeshifting</b></li>
-			</ol>
+			</dl>
 			<div>
 				this is all the abilities we have identified before our personnel were killed or went missing,
 				no other searches have been sent out for the safety of our own personnel.
@@ -77,13 +82,13 @@
 		<div class="letter">
 			<p>
 					here are some skills we have been able to identify via the body cams on our personnel:
-				<ol>
+				<dl>
 					<li><b>Agility</b></li>
 					<li><b>speed</b></li>
 					<li>one-handed weilding</li>
 					<li><b>feint</b></li>
 					<li><b>Deception</b></li>
-				</ol>
+				</dl>
 				<div>
 					here is the video from the body cam:
 				</div>
@@ -97,7 +102,7 @@
 
 		<div class="letter">
 			<p>
-				<table border="1" Style="color:#ffffff; Width:50%">
+				<table border="1" Style="color:#ffffff; Width:50%; margin: 0 auto;">
 						<tr>
 							<th>Strenths</th>
 							<th>Weaknesses</th>
@@ -129,5 +134,20 @@
 				</table>
 			</p>
 		</div>
+	</div>
+
+	<script>
+		var myVar;
+		
+		function myFunction() {
+		  myVar = setTimeout(showPage, 3000);
+		}
+		
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
+		</script>
+
 	</body>
 </html>

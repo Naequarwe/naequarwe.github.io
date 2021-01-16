@@ -2,14 +2,18 @@
 <html>
 <head>
 	<title>Case Study 4: Dimension Matriarch</title>
+	<link rel="stylesheet" href="CSS/Loader.css">
 </head>
-<body style="Background-color:#000000;">
+<body onload="myFunction()">
+
+	<div id="loader"></div>
 
 	<link rel="stylesheet" type="text/css"	href="CSS/Glitch.css">
 	<link rel="stylesheet" href="CSS/layout.css" type="text/css">
 	<link rel="stylesheet" href="CSS/button.css">
 	<link rel="stylsheet" href="CSS/Font.css">
 	
+	<div id="myDiv">
 	<div class="header">
 		<div class="glitch" data-text="Study_Cases" style="font-family: algerian;">
 			<h1>Case_studies</h1>
@@ -100,5 +104,20 @@
 					</table>
 				</p>
 			</div>
-		</body>
+	</div>
+
+	<script>
+		var myVar;
+		
+		function myFunction() {
+		  myVar = setTimeout(showPage, 3000);
+		}
+		
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
+		</script>
+
+	</body>
 </html>

@@ -2,15 +2,18 @@
 <html>
 <head>
 	<title>Case Studies</title>
+	<link rel="stylesheet" href="Cases/CSS/Loader.css">
 </head>
-<!--Background colour-->
-<body>
+<body onload="myFunction()">
+
+	<div id="loader"></div>
 
 	<link rel="stylesheet" type="text/css" href="Cases/CSS/Glitch.css">
 	<link rel="stylesheet" type="text/css" href="Cases/CSS/layout.css">
-	<link rel="stylesheet" href="CSS/button.css">
+	<link rel="stylesheet" href="Cases/CSS/button.css">
 	<link rel="stylesheet" href="Cases/CSS/Font.css">
 
+	<div id="myDiv">
 	<!--headings-->
 	<div class="header">
 		<div class="glitch" data-text="Mainpage_Study_Cases" style="text-align: center; font-family: AVP;">
@@ -35,7 +38,8 @@
 				<!--Paragraph-->
 				<div class="letter">
 					<p style="font-size:100%; color:#ffffff; text-align: center;">
-						Welcome to the GlitchOut Case studies, these are entities that are unknown of and all information that is listed here is only just scratching the surface,<br>
+						Welcome to the GlitchOut Case studies, these are entities that are unknown of and all information that is listed here is only just scratching the surface,
+						<br>
 						these entities are unknown and hugely unsafe, we advise you don't try looking for them or trying to recreate them.
 					</p>
 				</div>
@@ -46,8 +50,7 @@
 
 				<div class="letter">
 				<p style="color:#ffffff; text-align: center;">
-					at <i><b>*Classified*</b></i> we look at the world with different eyes, we try to find chaos within the society
-					and the cause, it may be;
+					Here we look over the multiple entities that can remove their existence, yet are still somewhat existent, these entities may be:
 
 					<!--List-->
 					<dl style="color:#ffffff; text-align: center;">
@@ -65,5 +68,18 @@
 						WE WILL NOT ADVISE LOW LEVEL PEOPLE TO SEARCH FOR THESE ENTITIES.
 					</div>
 					</p>
-		</body>
+	</div>
+	<script>
+		var myVar;
+		
+		function myFunction() {
+		  myVar = setTimeout(showPage, 3000);
+		}
+		
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("myDiv").style.display = "block";
+		}
+		</script>
+</body>
 </html>

@@ -4,14 +4,11 @@
   }
 
 @font-face {
-    font-family: Covert Ops;
+    font-family: covert_ops;
     src: url(font/covertops.ttf)
   }
 
-  .AVP {
-    font-family: AVP;
-  }
-
-  .covert-ops {
-    font-family: Covert Ops;
-  }
+@font-face {
+  font-family: Black Ops One;
+  src: url(font/BlackOpsOne-Regular.ttf)
+}

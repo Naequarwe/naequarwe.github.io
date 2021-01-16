@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Case Study 5: Dragonborn</title>
+		<title>Case Study 5: Dragonborn</title>
+		<link rel="stylesheet" href="CSS/Loader.css">
     </head>
-<body style="background-color:#000000;">
+<body onload="myFunction()">
+
+	<div id="loader"></div>
     
 		<link rel="stylesheet" type="text/css" href="CSS/Glitch.css">
 		<link rel="stylesheet" type="text/css" href="CSS\layout.css">
 		<link rel="stylesheet" href="CSS/button.css">
 		<link rel="stylesheet" href="CSS/table.css">
 
+		<div id="myDiv">
         <div class="header">
-		<div class="glitch" data-text="Study_Cases" style="font-family: algerian;">
+		<div class="glitch" data-text="Study_Cases" style="font-family: AVP;">
 			<h1>Case_studies</h1>
 		</div>
 	</div>
@@ -163,5 +167,20 @@
 			</table>
 		</p>
 		</div>
+		</div>
+
+		<script>
+			var myVar;
+			
+			function myFunction() {
+			  myVar = setTimeout(showPage, 3000);
+			}
+			
+			function showPage() {
+			  document.getElementById("loader").style.display = "none";
+			  document.getElementById("myDiv").style.display = "block";
+			}
+			</script>
+			
     </body>
 </html>

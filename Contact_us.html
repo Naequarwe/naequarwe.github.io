@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
   <title>Contact Us</title>
-    <body>
+  <link rel="stylesheet" href="CSS/Loader.css">
+    <body onload="myFunction()">
+
+      <div id="loader"></div>
+
+
         <link rel="stylesheet" href="CSS/website/Layout.css" type="text/css">
         <link rel="stylesheet" href="CSS/Glitch.css">
-        <link fel="stylesheet" href="CSS/Font.css"
-          
+        <link fel="stylesheet" href="CSS/Font.css" type="text/css">
+
+      <div id="myDiv">
         <div class="header">
           <div class="glitch" data-text="Us Contact" style="text-align: center; font-family: AVP;">
             <h1>Contact Us</h1>
           </div>
         </div>
+      
 
         <div class="topnav">
           <a href="Index.html">Home</a>
@@ -23,5 +30,19 @@
         <p>
           <script type="text/javascript" src="https://form.jotform.com/jsform/210136699371863"></script>
         </p>
+      </div>
+      
+      <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script>
     </body>
 </html>

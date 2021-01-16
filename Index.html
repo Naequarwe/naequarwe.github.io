@@ -3,19 +3,24 @@
     <head>
         <!--Document title-->
         <title>naequarwe.glitchout.au</title>
+        <link rel="stylesheet" href="CSS/Loader.css">
         <style>
             * {
                 box-sizing: border-box;
             }
         </style>
     </head>
-    <body >
+    <body onload="myFunction()">
+
+        <div id="loader"></div>
+
         <!--CSS external file caller-->
         <link rel="stylesheet" href="CSS/website/Layout.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="CSS/Glitch.css">
         <link rel="stylesheet" href="CSS/button.css">
         <link rel="stylesheet" href="CSS/Font.css">
 
+        <div id="myDiv">
         <div class="header">
             <div class="glitch" data-text="Co GlitchOut" style="text-align: center; font-family: AVP;">
                 <h1>GlitchOut Co.</h1>
@@ -49,7 +54,7 @@
                         <br>
                         Vulas is new to some content he's putting on his channel<br>
                         all content he posts is not allowed to be stolen/copyrighted, and if it is wanted ask him by posting in comments or find him on discord via his 
-                        <a href="https://discord.gg/BSYA5Vy" style="color: #8a0303;">server link.</a>
+                        <a href="https://discord.gg/BSYA5Vy" style="color: #FFFF00;">server link.</a>
                     </p>
                 </div>
                 <div class="card">
@@ -103,5 +108,20 @@
                 </div>
             </p>
         </div>
+        </div>
+    
+        <script>
+            var myVar;
+            
+            function myFunction() {
+              myVar = setTimeout(showPage, 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("myDiv").style.display = "block";
+            }
+            </script>
+
     </body>
 </html>

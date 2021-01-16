@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>GlitchOut Co. Discord server</title>
+        <link rel="stylesheet" href="CSS/Loader.css">
     </head>
     <body>
 
@@ -9,6 +10,7 @@
         <link rel="stylesheet" href="CSS/button.css">
         <link rel="stylesheet" href="CSS/layout.css" type="text/css">
 
+        <div id="myDiv">
         <div class="header">
             <div class="glitch" data-text="GlitchOut Co {V2.0.1}" a href="https://discord.gg/BSYA5Vy" style="font-family: AVP;">
                 <h1>GlitchOut Co.</h1>
@@ -68,5 +70,20 @@
                     <a href="https://discord.gg/BSYA5Vy" class="button button2" style="text-decoration: none;">Join Now</a>
                 </p>
             </div>
+        </div>
+
+        <script>
+            var myVar;
+            
+            function myFunction() {
+              myVar = setTimeout(showPage, 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("myDiv").style.display = "block";
+            }
+            </script>
+            
     </body>
 </html>

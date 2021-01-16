@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
   <title>Thank You</title>
-    <body>
+  <link rel="stylesheet" href="CSS/Loader.css">
+    <body onload="myFunction()">
+
+      <div id="loader"></div>
+
         <link rel="stylesheet" href="CSS/website/Layout.css" type="text/css">
         <link rel="stylesheet" href="CSS/Glitch.css">
-          
+        <link rel="stylesheet" href="CSS/Font.css">
+      
+        <div id="myDiv">
         <div class="header">
           <div class="glitch" data-text="Us Contact" style="text-align: center; font-family: AVP;">
             <h1>Contact Us</h1>
@@ -28,5 +34,19 @@
                 your submission has been recieved and will be responded to within three days, if you get no response try again.
             </p>
         </div>
+        </div>
+
+        <script>
+          var myVar;
+          
+          function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+          }
+          
+          function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+          }
+          </script>
     </body>
 </html>
