@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/Case Studies backup.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px;
+}
+  
+  /* Header */
+  .header {
+    background-image: url("images/header.jpg");
+    text-align: center;
+    padding: 20px;
+  }
+    .header h1 {
+        font-size: 50px;
+        color: #ff0000;
+        font-family: Algerian;
+    }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px dotted white;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+  }
+  .disable {
+      color: black;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Add a card effect for articles */
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  }
+
+  /* images */
+  .fakeimg {
+    background-size: cover;
+  }
+
+  .imga {
+    background-image: url(images/abstergo\ logo.gif);
+    width: 400px;
+    height: 400px;
+  }
+
+  .imgb {
+    background-image: url(images/TRFCA_Icon.gif);
+    width: 400px;
+    height: 400px;
+  }
+
+  .imgc {
+    background-image: url(images/pheonix_galaxy.gif);
+    width: 400px;
+    height: 400px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-image: url('images/header.jpg');
+    margin-top: 20px;
+  }
+    .footer p {
+      text-align: center;
+      color: #ff0000;
+      font-family: Cambria;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+  .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  .box {
+    padding: 20px;
+    margin: 0 auto;
+    width: 945px;
+    display: block;
+    text-align: center;
+    background-color: #333333;
+    color: #7df9ff;
+    }
+
+  
