@@ -91,6 +91,12 @@ body {
     width: 400px;
     height: 400px;
   }
+
+  .imgd {
+    background-image: url(images/The_Cipher_Au.png);
+    width: 400px;
+    height: 400px;
+  }
   
   /* Clear floats after the columns */
 .row:after {
