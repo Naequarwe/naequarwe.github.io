@@ -21,6 +21,11 @@ body {
         color: #ff0000;
         font-family: Algerian;
     }
+    .header h2 {
+      font-size: 25px;
+      color: #fff000;
+      font-family: AVP;
+    }
   
   /* Style the top navigation bar */
   .topnav {
