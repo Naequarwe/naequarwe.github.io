@@ -45,16 +45,7 @@ body h2, h3 {
   .disable {
     color: black;
   }
-  .item{
-    width:200px;
-    text-align:center;
-    display: block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    float: right;
-  }
+
   .footer {
     padding: 20px;
     text-align: center;
@@ -62,12 +53,6 @@ body h2, h3 {
     margin-top: 20px;
     }
   .card {
-    padding: 20px;
-    width: 1000px;
-    text-align: center;
-    background-color: none;
-  }
-  .letter {
     padding: 20px;
     margin: 0 auto;
     width: 945px;

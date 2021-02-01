@@ -1,0 +1,99 @@
+body {
+    background-image: url('images/Case Studies.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+    margin: 0;
+  }
+  body p {
+      color: #7df9ff;
+  }
+  body ol, dl {
+        color:#ffffff;
+  }
+  body h2, h3 {
+    text-align: center;
+  }
+    /* Header */
+    .header {
+      background-image: url("images/header.jpg");
+      text-align: center;
+      padding: 20px;
+    }
+      .header h1 {
+          font-size: 50px;
+          color: #ff0000;
+          font-family: Algerian;
+      }
+    /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px dotted white;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+  }
+  .disable {
+    color: black;
+  }
+
+  .item{
+    width:200px;
+    text-align:center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    float: left;
+  }
+
+/* column */
+.column {
+    float: left;
+    padding: 10px;
+    
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+    background-color: #333333;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+      }
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-image: url('images/header.jpg');
+    margin-top: 20px;
+    }
+    .footer h5 {
+        color: #ff0000;
+    }
