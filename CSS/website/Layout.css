@@ -17,32 +17,42 @@ body {
       font-family: Algerian;
   }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: 1px dotted grey;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #dddddd;
-  color: black;
-  border: none;
-}
-.disable {
-    color: black;
-}
+   /* Style the top navigation bar */
+   .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 3px solid white;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #333333;
+    color: white;
+    border: 2px inset grey;
+  }
+  .topnav .disable {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 1px solid #ffffff;
+  }
+  
+  .topnav .disable:hover {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 1px solid #ffffff;
+  }
 
 /* Create two unequal columns that floats next to each other */
 /* left column */

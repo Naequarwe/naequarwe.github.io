@@ -27,31 +27,41 @@ body {
       font-family: AVP;
     }
   
-  /* Style the top navigation bar */
-  .topnav {
+   /* Style the top navigation bar */
+   .topnav {
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
   }
   
   /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: 1px dotted white;
+    border: 3px solid white;
+    margin-right: 1px;
+    margin-left: 1px;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     background-color: #333333;
     color: white;
-    border: none;
+    border: 2px inset grey;
   }
-  .disable {
-      color: black;
+  .topnav .disable {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 1px solid #ffffff;
+  }
+  
+  .topnav .disable:hover {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 1px solid #ffffff;
   }
 
   /* Create two unequal columns that floats next to each other */
@@ -80,7 +90,7 @@ body {
   }
 
   .imga {
-    background-image: url(images/abstergo\ logo.gif);
+    background-image: url(images/GlitchOut_Co_Server_Icon.gif);
     width: 400px;
     height: 400px;
   }

@@ -33,14 +33,14 @@ body h2, h3 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: 1px dotted white;
+    border: 3px outset white;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     background-color: #333333;
     color: white;
-    border: none;
+    border: 3px inset grey;
   }
   .disable {
     color: black;

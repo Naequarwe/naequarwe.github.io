@@ -15,6 +15,7 @@ body {
   body h2, h3 {
     text-align: center;
   }
+
     /* Header */
     .header {
       background-image: url("images/header.jpg");
@@ -26,33 +27,99 @@ body {
           color: #ff0000;
           font-family: Algerian;
       }
+
     /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
   }
   
   /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: 1px dotted white;
+    border: 3px outset white;
+    margin-right: 1px;
+    margin-left: 1px;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     background-color: #333333;
     color: white;
-    border: none;
+    border: 2px inset grey;
   }
-  .disable {
-    color: black;
+  .topnav .disable {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 3px solid #ffffff;
+  }
+  
+  .topnav .disable:hover {
+    opacity: 0.6;
+	  cursor: not-allowed;
+	  border: 3px solid #ffffff;
   }
 
+  /* Dropdown menu */
+  .dropbtn {
+    font-family: AVP;
+    display: block;
+    background-color: black;
+    color: #fff;
+    padding: 14px 16px;
+    border: 3px solid white;
+    height: 52px;
+    margin-left: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 140%;
+    text-align: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    text-decoration: none;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #ffffff;
+    font-family: AVP;
+  }
+
+  .dropdown-content a:hover {
+    color: #ffffff;
+    background-color: #333333;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #333333;
+    border: 2px inset grey;
+  }
+
+  /* Table */
   .item{
     width:200px;
     text-align:center;
