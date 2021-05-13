@@ -46,3 +46,11 @@ jobs:
           upload-to-code-scanning: true
           # Github token for uploading the results
           github-token: ${{ github.token }}
+          
+  api_audit_job:
+    runs-on: ubuntu-latest
+    name: Audit OpenAPI files
+    steps:
+    - uses: 42Crunch/api-security-audit-action@v1
+      with:
+        api-token: ${{ secrets.API_TOKEN }}
