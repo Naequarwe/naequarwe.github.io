@@ -54,3 +54,5 @@ jobs:
     - uses: 42Crunch/api-security-audit-action@v1
       with:
         api-token: ${{ secrets.API_TOKEN }}
+        min-score: 85
+        collection-name: GitHub Actions test collection
